@@ -7,7 +7,7 @@ import csv
 from datetime import datetime, timedelta
 from faker import Faker
 
-fake = Faker("en_ZA")  # South African locale
+fake = Faker("en_GB")  # SA flavor via manual STORES/PRODUCTS lists
 random.seed(42)        # reproducible data
 
 # SA-specific reference data
