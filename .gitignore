@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+
+# Secrets
+.env
+service-account*.json
+*.key
+
+# Data
+data/raw/*.csv
+data/quarantine/*.csv
+!data/raw/.gitkeep
+!data/quarantine/.gitkeep
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
